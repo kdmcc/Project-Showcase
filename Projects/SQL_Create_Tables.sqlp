@@ -1,0 +1,67 @@
+/*
+Kyle McCulloch
+
+This file contains the SQL CREATE TABLE code for a database of vehicles, 
+drivers, and insurance companies. The code is followed by a couple short questions
+and answers about the representation of the data's relationships.
+*/
+
+CREATE TABLE InsuranceCo (
+name VARCHAR(20) PRIMARY KEY,
+phone integer);
+
+CREATE TABLE Vehicle (
+licensePlate VARCHAR(20) PRIMARY KEY,
+year integer,
+insuranceCo VARCHAR(20) REFERENCES InsuranceCo,
+maxLiability float,
+ownerSSN integer REFERENCES Person(ssn));
+
+CREATE TABLE Car (
+licencePlate VARCHAR(20) PRIMARY KEY REFERENCES Vehicle,
+make VARCHAR(20));
+
+CREATE TABLE Truck (
+licencePlate VARCHAR(20) PRIMARY KEY REFERENCES Vehicle,
+capacity integer,
+operatorSSN REFERENCES ProfessionalDriver);
+
+CREATE TABLE Person (
+ssn integer PRIMARY KEY,
+driverID integer);
+
+CREATE TABLE NonProfessionalDriver (
+driverSSN PRIMARY KEY REFERENCES Person);
+
+CREATE TABLE ProfessionalDriver (
+driverSSN PRIMARY KEY REFERENCES Person,
+medicalHistory VARCHAR(20));
+
+CREATE TABLE Drives(
+driverSSN integer REFERENCES NonProfessionalDriver,
+licensePlate VARCHAR(20) REFERENCES Car,
+PRIMARY KEY(driverSSN, licensePlate));
+
+
+/*
+Q:
+Which relation in your relational schema represents the relationship "insures" 
+and why is that your representation? 
+
+A:
+The way I represented insures is to include a foreign key into the Vehicle class to
+reference which insurance company the car is insured by. The reason I did this 
+is because each vehicle is only insured by one company, which can than be treated
+as an attribute of that vehicle.
+
+
+Q:
+Compare the representation of the relationships "drives" and "operates" in 
+your schema, and explain why they are different.
+
+A:
+Drives and Operates are different because Drives is a many-many relationship 
+while Operates is a many-one relationship. The difference shows up in the schema 
+because the operator of a truck becomes an attribute of the truck itself, while 
+a new table is created for the Drives relation that relates drivers and cars.
+*/
