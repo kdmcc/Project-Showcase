@@ -1,7 +1,7 @@
 # Project Showcase
-_This repository holds small parts of some of my previous 
+__This repository holds small parts of some of my previous 
 coding projects and assignments to exemplify my coding abilities
-and experience._
+and experience.__
 
 ## Graph.java
 ### Summary
