@@ -12,24 +12,25 @@ assignment by implementing additional and more complex methods to the ADT
 such as getEdgesTo(), removeNode(), removeEdge(), and a few more.
 ### Skills and Abilities
 * Writing correct, high quality, and thoroughly documented code.
-* Experience with Javadoc
 * Designing and implementing ADTs
+* Experience with Javadoc
 
 ## GraphTest.java
 ### Summary
-
+GraphTest.java contains a suite of jUnit tests for the Graph ADT that I had 
+previously implemented. The tests cover all methods for both correct and 
+incorrect behavior
 ### Skills and Abilities
-*
-*
-*
+* Developing a thorough testing strategy
+* Experience working with jUnit
 
 ## MainActivity.java
 ### Summary
 
 ### Skills and Abilities
+* 
 *
-*
-*
+
 
 ## CampusPaths.apk
 ### Summary
@@ -37,12 +38,10 @@ such as getEdgesTo(), removeNode(), removeEdge(), and a few more.
 ### Skills and Abilities
 *
 *
-*
 
 ## SQL_Create_Tables.sqlp
 ### Summary
 
 ### Skills and Abilities
-*
 *
 *
