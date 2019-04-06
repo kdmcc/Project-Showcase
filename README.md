@@ -3,6 +3,7 @@ __This repository holds small parts of some of my previous
 coding projects and assignments to exemplify my coding abilities
 and experience.__
 
+
 ## Graph.java
 ### Summary
 Graph.java is an abstract data type that represents a mathematical 
@@ -15,6 +16,8 @@ such as getEdgesTo(), removeNode(), removeEdge(), and a few more.
 * Designing and implementing ADTs
 * Experience with Javadoc
 
+
+
 ## GraphTest.java
 ### Summary
 GraphTest.java contains a suite of jUnit tests for the Graph ADT that I had 
@@ -24,6 +27,8 @@ incorrect behavior
 * Developing a thorough testing strategy
 * Experience working with jUnit
 
+
+
 ## MainActivity.java
 ### Summary
 
@@ -32,12 +37,15 @@ incorrect behavior
 *
 
 
+
 ## CampusPaths.apk
 ### Summary
 
 ### Skills and Abilities
 *
 *
+
+
 
 ## SQL_Create_Tables.sqlp
 ### Summary
