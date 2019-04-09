@@ -12,10 +12,11 @@ from my Software Design class. However, I went beyond the specifications of the
 assignment by implementing additional and more complex methods to the ADT 
 such as getEdgesTo(), removeNode(), removeEdge(), and a few more.
 
-### Skills and Abilities
+### Skills Developed
 * Writing correct, high quality, and thoroughly documented code.
 * Designing and implementing ADTs.
-* Experience with Javadoc.
+### Experience Gained
+* Javadoc.
 
 
 
@@ -25,9 +26,11 @@ GraphTest.java contains a suite of jUnit tests for the Graph ADT that I had
 previously implemented. The tests cover all methods for both correct and 
 incorrect behavior.
 
-### Skills and Abilities
+### Skills Developed
 * Developing a thorough testing strategy.
-* Experience working with jUnit.
+* Code Reasoning
+### Experience Gained
+* jUnit.
 
 
 
@@ -39,10 +42,12 @@ where I implemented Graph.java. This project utilized all of the source code I h
 the class, and gave me experience working with a relatively large library of source code. This project 
 introduced me to programming for Android.
 
-### Skills and Abilities
-* Experience programming for Android.
+### Skills Developed
 * Learning a new libray from its documentation.
-* Experience working with a large library of source code.
+* Code design and organization.
+### Experience Gained
+* Programming for Android.
+* Working with a large library of source code.
 
 
 
@@ -54,15 +59,23 @@ shortest path between the two.
 
 I have included instructions on how to run this on a device or emulator below.
 
-### Skills and Abilities
-* Learned Android concepts
+### Skills Developed
+* Understanding of Android concepts
 * Creating functional and robust UI's
+### Experience Gained
+* Exporting Android product.
+* Android Studio
 
 
 ## [SQL_Create_Tables.sqlp](https://github.com/kdmcc/Project-Showcase/blob/master/Projects/SQL_Create_Tables.sqlp)
 ### Summary
+This file is a series of MySQL CREATE TABLE commands to define a database of vehicles, drivers, and insurance companies.
+The data is formatted with logical primary and foreign keys. Included in the file is a couple of short questions and answers
+about the commands.
 
-
-### Skills and Abilities
-*
-*
+### Skills Developed
+* Understanding of database concepts and the relational data model.
+### Experience Gaines
+* MySQL
+* SQLite
+* Azure
